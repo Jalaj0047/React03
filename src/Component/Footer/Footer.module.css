@@ -1,0 +1,23 @@
+.footer{
+    height: 30vh;
+    background-color: black;
+    text-align: center;
+    padding-top: 10px;
+}
+.nav{
+    list-style: none;
+    font-size: larger;
+    /* border: 2px solid white; */
+}
+.nav li a{
+    line-height: 3.4rem;
+    border-bottom: 1px whitesmoke dotted;
+}
+.nav li a{
+    padding: 10px;
+    text-decoration: none;
+    color: wheat;
+}
+.nav li a:hover{
+    color: white;
+}

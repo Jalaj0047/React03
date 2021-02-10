@@ -1,0 +1,89 @@
+.productList{
+    display: flex;
+    height: 90vh;
+    background-color: white;
+    flex-wrap: wrap;   
+    box-sizing: border-box; 
+    justify-content: center;
+    padding: 10px;
+    /* border: 1px black solid; */
+}
+.item1{
+    border: 1px black solid;
+    background-image: url("https://images.pexels.com/photos/733745/pexels-photo-733745.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-repeat: no-repeat;
+    background-position: center 10rem;
+    /* background-position-x: ; */;
+    background-size:300px ;
+    padding-top: 3rem;
+    flex-basis: 250px;
+}
+.item2{
+    border: 1px black solid;
+    background-repeat: no-repeat;
+    background-image: url("https://images.pexels.com/photos/104842/bmw-vehicle-ride-bike-104842.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-position: center 10rem;
+    /* background-position-x: ; */;
+    background-size:300px ;
+    padding-top: 3rem;    
+    flex-basis: 250px;
+    /* flex-grow: 1; */
+}
+.item3{
+    border: 1px black solid;
+    background-image: url("https://images.pexels.com/photos/255934/pexels-photo-255934.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-repeat: no-repeat;
+    background-position: center 10rem;
+    /* background-position-x: ; */;
+    background-size:300px ;
+    padding-top: 3rem;  
+    flex-basis: 250px;
+    /* flex-grow: 1; */
+}
+.item4{
+    border: 1px black solid;
+    background-image: url("https://images.pexels.com/photos/306763/pexels-photo-306763.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-repeat: no-repeat;
+    background-position: center 10rem;
+    /* background-position-x: ; */;
+    background-size:300px ;
+    padding-top: 3rem;  
+    flex-basis: 250px;
+}
+
+@media (min-width:500px){
+    .productList{
+        height: 60vh;
+        justify-content: space-between;
+
+        /* justify-content: center; */
+    }
+    .item1{
+        background-size: 150px;
+        /* background-repeat: repeat-x; */
+        padding: 50px;
+        background-position: center 12rem;
+        background-size: contain;
+    }
+    .item2{
+        background-size: 150px;
+        /* background-repeat: repeat-x; */
+        padding: 70px;
+        background-position: center 14rem;
+        background-size: contain;
+    }
+    .item3{
+        background-size: 150px;
+        /* background-repeat: repeat-x; */
+        padding: 70px;
+        background-position: center 12rem;
+        background-size: contain;
+    }
+    .item4{
+        background-size: 150px;
+        /* background-repeat: repeat-x; */
+        padding: 50px;
+        background-position: center 12rem;
+        background-size: contain;
+    }
+}

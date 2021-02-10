@@ -1,0 +1,30 @@
+.Toolbar{
+    height: 10vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #703b09;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 90;
+    padding-top: 9px;
+    padding-left: 70rem;
+}
+.nav{
+    padding: 9px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.nav li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.nav li a:hover{
+    background-color: #a05209;
+}
